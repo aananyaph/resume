@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Portfolio — Home</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body class="light">
+  <header class="site-header">
+    <div class="container header-row">
+      <h1 class="brand">Your Name</h1>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">☰</button>
+        <ul id="nav-list" class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="biodata.html">Bio-data</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button id="themeToggle" class="btn small">Toggle theme</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container home-main">
+    <section class="hero">
+      <img class="avatar" src="data:image/svg+xml;utf8,<?xml version='1.0' encoding='UTF-8'?><svg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23ddd'/><text x='50%' y='55%' font-size='12' text-anchor='middle' fill='%23777' font-family='Arial' dy='.35em'>Your Photo</text></svg>" alt="Avatar placeholder">
+      <div class="hero-text">
+        <h2>Hi, I'm <span class="accent">Your Name</span></h2>
+        <p class="lead">Front-end developer • UX-minded • Open to opportunities</p>
+        <p>
+          <a class="btn" href="resume.html">View Resume</a>
+          <a class="btn outline" href="biodata.html">View Bio-data</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="about">
+      <h3>About me</h3>
+      <p>Short paragraph about yourself — your skills, interests, or summary. Keep it concise.</p>
+      <ul class="quick-stats">
+        <li><strong>Experience:</strong> 2+ years</li>
+        <li><strong>Location:</strong> City, Country</li>
+        <li><strong>Email:</strong> you@example.com</li>
+      </ul>
+    </section>
+
+    <section class="projects">
+      <h3>Selected Projects</h3>
+      <div class="card-grid">
+        <article class="card">
+          <h4>Project A</h4>
+          <p>Short description of project A. Tech used: HTML, CSS, JS.</p>
+        </article>
+        <article class="card">
+          <h4>Project B</h4>
+          <p>Short description of project B. Tech used: React, API.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Your Name — Built with HTML, CSS & JavaScript</small>
+    </div>
+  </footer>
+</body>
+</html>

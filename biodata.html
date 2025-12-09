@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name — Bio-data</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body class="light">
+  <header class="site-header thin">
+    <div class="container header-row">
+      <h1 class="brand small">Bio-data</h1>
+      <nav class="main-nav">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="resume.html">Resume</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container biodata">
+    <section class="biodata-card">
+      <h2>Your Name</h2>
+      <table class="info-table" role="table">
+        <tbody>
+          <tr><th>Father's Name</th><td>Father Name</td></tr>
+          <tr><th>Date of Birth</th><td>01 Jan 1998</td></tr>
+          <tr><th>Gender</th><td>Female</td></tr>
+          <tr><th>Marital Status</th><td>Single</td></tr>
+          <tr><th>Languages Known</th><td>English, Hindi</td></tr>
+          <tr><th>Address</th><td>House / Street, City, PIN</td></tr>
+          <tr><th>Phone</th><td>+91 99999 99999</td></tr>
+          <tr><th>Email</th><td>you@example.com</td></tr>
+        </tbody>
+      </table>
+
+      <div class="biodata-actions">
+        <button id="printBiodata" class="btn">Print / Save as PDF</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>Bio-data • <span id="year3"></span></small>
+    </div>
+  </footer>
+</body>
+</html>
